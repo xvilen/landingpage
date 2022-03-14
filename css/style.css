@@ -269,7 +269,7 @@ section article .toplist div div img {
 }
 @media only screen and (max-device-width: 1024px) {
   .container {
-    background-color: rgb(255, 166, 0);
+    /*background-color: rgb(255, 166, 0);*/
     /* display: none; */
   }
   section div .banner button {
@@ -280,12 +280,12 @@ section article .toplist div div img {
 }
 @media only screen and (max-device-width: 950px) {
   .container {
-    background-color: rgb(0, 25, 253);
+   /* background-color: rgb(0, 25, 253);*/
     /* display: none; */
   }
   aside{
     position: absolute;
-    background: rgb(0, 0, 0);
+    /*background: rgb(0, 0, 0);*/
 /* z-index: -99; */
 display: none;
   }
