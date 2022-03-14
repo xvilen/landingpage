@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Fredoka:wght@600&family=Outfit:wght@500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Dongle', sans-serif;
+  font-family: 'Fredoka', sans-serif;
+  font-size: large;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #2e2e2e;
+  overflow: hidden;
+}
+nav {
+  display: flex;
+  width: 100vw;
+  height: 12vh;
+  justify-content: space-between;
+}
+#left {
+  width: 12%;
+position: relative;
+left: 3%;
+}
+#left img {
+  width: 100%;
+  height: 130%;
+}
+#mid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 30px;
+}
+#mid div {
+  background-color: #202020;
+  padding: 11px 21px;
+  border-radius: 12px;
+  color: white;
+}
+
+#mid div input {
+  padding: 4px 200px 4px 4px;
+  margin-left: 10px;
+  background-color: #202020;
+  border: none;
+  outline: none;
+  text-align: left;
+}
+#mid div input::placeholder {
+  color: white;
+  font-size: large;
+  text-align: center;
+}
+#right {
+  width: 13%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* position: relative;
+  left: 49%; */
+}
+.msg input::placeholder{
+  color: white;
+  font-size: medium;
+  text-align: center;
+}
+.rightitem {
+  padding: 15px;
+  background-color: #202020;
+  border-radius: 50%;
+  color: #525153;
+}
+aside {
+  width: 18vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+aside div {
+  margin-top: 25px;
+}
+aside div button {
+  width: 70%;
+  padding: 12px 0px;
+  background: none;
+  outline: none;
+  border: none;
+  font-size: larger;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 20px;
+  color: whitesmoke;
+}
+aside div button:focus {
+  background-color: #090909;
+  color: rgb(114, 78, 243);
+}
+
+aside div button i {
+  margin-right: 15px;
+}
+.content {
+  height: 85vh;
+  display: flex;
+}
+section {
+  width: 81%;
+  height: 100%;
+  background-color: #202020;
+  border-radius: 20px;
+
+  display: flex;
+}
+section div {
+  width: 80%;
+}
+
+section div .banner {
+  background-image: url(../assests/2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 40%;
+  width: 91%;
+  margin: 25px 37px;
+  color: white;
+  border-radius: 10px;
+}
+h5 {
+  padding: 42px 0px 10px 31px;
+}
+h2 {
+  padding: 10px 20px;
+}
+section div .banner button {
+  padding: 10px 15px;
+  background-color: #ff148b;
+  margin-left: 45px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+.cardss {
+  height: 100%;
+  width: 93%;
+  margin: 25px 37px;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+}
+.heigwid {
+  background-image: url(../assests/cards/scorpion.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 46%;
+  width: 30%;
+  color: white;
+  border-radius: 10px;
+  margin: 0px 15px;
+}
+.information {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(12px);
+  height: 30%;
+  position: relative;
+  top: 70%;
+  padding-left: 17px;
+  z-index: 2;
+}
+.information img {
+  width: 65%;
+  height: 53%;
+}
+.s2 {
+  background-image: url(../assests/cards/goku.jpg);
+}
+.s3 {
+  background-image: url(../assests/cards/mr1.jpg);
+}
+.s4 {
+  background-image: url(../assests/cards/naruto.jpg);
+}
+section article {
+  background: #202020;
+  width: 20%;
+  height: 100%;
+  color: white;
+}
+section article .chatls {
+  background: #2e2e2e;
+  width: 92%;
+  height: 45%;
+  margin: 20px 0px;
+  border-radius: 12px;
+}
+section article .chatls div {
+  background: #323232;
+  width: 80%;
+  height: 33%;
+  margin: 16px 24px;
+}
+section article .chatls .bs {
+  box-shadow: 5px 5px #2c2c2c;
+}
+section article .chatls div div h6 {
+  font-size: medium;
+}
+section article .chatls div p {
+  font-size: x-small;
+}
+section article .chatls div div {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+section article .chatls div div img {
+  border-radius: 50%;
+}
+section article .chatls .msg {
+  margin: 0px;
+  background: none;
+  display: flex;
+  height: 10%;
+  width: 100%;
+}
+section article .chatls #nd2 {
+  margin-bottom: 0px;
+}
+section article .chatls .msg input {
+  padding: 3px 4px;
+  background: none;
+  border: none;
+  outline: none;
+}
+.msg i {
+  margin: 2px 10px;
+  background: #202020;
+  width: 15%;
+  height: 86%;
+  border-radius: 50%;
+  padding: 1px 5px;
+}
+.chatls h3 {
+  margin: 0px 20px;
+}
+section article .toplist div {
+  height: 20%;
+}
+#hid{
+  display: none;
+}
+section article .toplist div div img {
+  border-radius: 50%;
+  width: 33%;
+  height: 361%;
+}
+.checkbtn{
+  display: none;
+}
+#check{
+  display: none;
+}
+@media only screen and (max-device-width: 1024px) {
+  .container {
+    background-color: rgb(255, 166, 0);
+    /* display: none; */
+  }
+  section div .banner button {
+    padding: 9px 14px;
+    position: relative;
+    bottom: 4%;
+  }
+}
+@media only screen and (max-device-width: 950px) {
+  .container {
+    background-color: rgb(0, 25, 253);
+    /* display: none; */
+  }
+  aside{
+    position: absolute;
+    background: rgb(0, 0, 0);
+/* z-index: -99; */
+display: none;
+  }
+  section {
+    width: 100%;
+  }
+  .checkbtn{
+    display: block;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    line-height: 80px;
+    cursor: pointer;
+    margin-left: 25px;
+  }
+  #check:checked ~ aside{
+    display: block;
+  }
+}
+@media only screen and (max-device-width: 750px) {
+  article{
+    display: none;
+  }
+  section div {
+    width: 100%;
+  }
+  
+}
