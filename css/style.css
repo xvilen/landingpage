@@ -118,6 +118,24 @@ section div {
   width: 80%;
 }
 
+@keyframes mm {
+  6.25%{background-image: url(../assests/1.jpg);}
+  12.5%{background-image: url(../assests/2.jpg);}
+  18.75%{background-image: url(../assests/3.jpg);}
+  25%{background-image: url(../assests/4.jpg);}
+  31.25%{background-image: url(../assests/5.jpg);}
+  37.5%{background-image: url(../assests/6.jpg);}
+  43.75%{background-image: url(../assests/7.jpg);}
+  50%{background-image: url(../assests/8.jpg);}
+  56.25%{background-image: url(../assests/9.jpg);}
+  62.5%{background-image: url(../assests/10.jpg);}
+  68.75%{background-image: url(../assests/11.jpg);}
+  75%{background-image: url(../assests/12.jpg);}
+  81.25%{background-image: url(../assests/13.jpg);}
+  87.5%{background-image: url(../assests/14.jpg);}
+  93.75%{background-image: url(../assests/15.jpg);}
+  100%{background-image: url(../assests/16.jpg);}
+}
 section div .banner {
   background-image: url(../assests/2.jpg);
   background-position: center;
@@ -127,6 +145,7 @@ section div .banner {
   margin: 25px 37px;
   color: white;
   border-radius: 10px;
+  animation: mm 60s ease-in  infinite alternate-reverse forwards;
 }
 h5 {
   padding: 42px 0px 10px 31px;
