@@ -22,11 +22,11 @@ nav {
 #left {
   width: 12%;
 position: relative;
-left: 3%;
+left: 1%;
 }
 #left img {
   width: 100%;
-  height: 130%;
+  height: 190%;
 }
 #mid {
   display: flex;
@@ -81,7 +81,9 @@ aside {
 }
 aside div {
   margin-top: 25px;
+  position: relative;
 }
+
 aside div button {
   width: 70%;
   padding: 12px 0px;
@@ -93,10 +95,15 @@ aside div button {
   margin-left: 10px;
   border-radius: 20px;
   color: whitesmoke;
+  transition:  0.5s;
+  
 }
 aside div button:focus {
-  background-color: #090909;
+  background-color: #000000;
   color: rgb(114, 78, 243);
+  -webkit-box-shadow: 1px 3px 24px 39px rgba(82,76,82,1);
+  -moz-box-shadow: 1px 3px 17px 7px rgba(82,76,82,1) rgba(82,76,82,1);
+  box-shadow:0px 0px 12px 3px rgb(102, 255, 0);
 }
 
 aside div button i {
@@ -117,7 +124,6 @@ section {
 section div {
   width: 80%;
 }
-
 @keyframes mm {
   6.25%{background-image: url(../assests/1.jpg);}
   12.5%{background-image: url(../assests/2.jpg);}
@@ -145,10 +151,11 @@ section div .banner {
   margin: 25px 37px;
   color: white;
   border-radius: 10px;
-  animation: mm 60s ease-in  infinite alternate-reverse forwards;
+  animation: mm 40s ease-in  infinite forwards;
 }
 h5 {
   padding: 42px 0px 10px 31px;
+  background: linear-gradient(right rgba(0,0,0,0.8),rgba(0,0,0,0.1));
 }
 h2 {
   padding: 10px 20px;
@@ -181,6 +188,7 @@ section div .banner button {
   width: 30%;
   color: white;
   border-radius: 10px;
+  transition: 0.5s;
   margin: 0px 15px;
 }
 .information {
@@ -248,6 +256,7 @@ section article .chatls .msg {
   display: flex;
   height: 10%;
   width: 100%;
+  position: relative;
 }
 section article .chatls #nd2 {
   margin-bottom: 0px;
@@ -260,11 +269,13 @@ section article .chatls .msg input {
 }
 .msg i {
   margin: 2px 10px;
-  background: #202020;
+
   width: 15%;
   height: 86%;
   border-radius: 50%;
   padding: 1px 5px;
+  position: absolute;
+right: 0px;
 }
 .chatls h3 {
   margin: 0px 20px;
@@ -288,7 +299,7 @@ section article .toplist div div img {
 }
 @media only screen and (max-device-width: 1024px) {
   .container {
-    /*background-color: rgb(255, 166, 0);*/
+    background-color: rgb(255, 166, 0);
     /* display: none; */
   }
   section div .banner button {
@@ -299,12 +310,12 @@ section article .toplist div div img {
 }
 @media only screen and (max-device-width: 950px) {
   .container {
-   /* background-color: rgb(0, 25, 253);*/
+    background-color: rgb(0, 25, 253);
     /* display: none; */
   }
   aside{
     position: absolute;
-    /*background: rgb(0, 0, 0);*/
+    background: rgb(0, 0, 0);
 /* z-index: -99; */
 display: none;
   }
@@ -331,4 +342,17 @@ display: none;
     width: 100%;
   }
   
+}
+aside div button:hover{
+  background: linear-gradient(#1f1c2c,#928dab);
+  -webkit-box-shadow: 1px 3px 24px 39px rgba(82,76,82,1);
+-moz-box-shadow: 1px 3px 17px 7px rgba(82,76,82,1) rgba(82,76,82,1);
+box-shadow:1px 3px 17px 7px rgb(0, 0, 0);
+}
+
+.heigwid:hover{
+  scale: 1.1;
+  transition: 0.5s;
+  box-shadow:  1px 3px 17px 7px rgb(33, 197, 12);,
+              inset: 1px 2px 10px 2px rgb(150, 150, 248);
 }
