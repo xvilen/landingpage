@@ -27,6 +27,10 @@ left: 1%;
 #left img {
   width: 100%;
   height: 190%;
+  -webkit-filter: drop-shadow(2px 1px 0 black)
+  drop-shadow(-1px -1px 0 black);
+filter: drop-shadow(2px 1px 0 black) 
+drop-shadow(-1px -1px 0 black);
 }
 #mid {
   display: flex;
